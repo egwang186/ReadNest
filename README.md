@@ -236,7 +236,7 @@ ReadNest 会按来源分别记忆：
 - 🎬 普通视频
 - 📺 M3U8 视频
 - 🎧 音频
-- 📄 PDF、EPUB、MOBI、DOCX、PPTX、XLSX
+- 📄 PDF、EPUB、MOBI、DOCX、XLSX
 - 📡 M3U 直播源
 - 📡 TXT 直播源
 - 📚 TXT 小说或普通文本
