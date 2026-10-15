@@ -15,8 +15,7 @@ if (location.href.indexOf('view_video.php') < 0) return null;
 
 // ① 宿主端请求拿服务器原始 HTML：等价 okhttp 的裸请求，不带 WebView
 //    引擎的移动端 Client Hints 指纹（sec-ch-ua-mobile=?1 / Android，
-//    固定无法修改）。站点按指纹分平台：WebView 的请求会被下发 m 系
-//    CDN（播放易中断）与移动版页面，宿主端拿到的才是稳定 v 系地址。
+
 var html = await R.http(location.href);
 
 // ② 解析原始 HTML 里的 mediaDefinitions（R.jsonAt 直接抠出数组）。
