@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name Pornhub小窗播放
-// @match *.pornhub.com
+// @domain pornhub.com
 // ==/UserScript==
 // ═══ 内置示例规则（完整参数版）═══
 // 匹配域名的页面加载完成后自动执行本脚本，返回播放地址即直接起播。
