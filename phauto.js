@@ -47,7 +47,7 @@ if (!defs.length) {
 var sources = [];
 for (var i = 0; i < defs.length; i++) {
   var d = defs[i];
-  if (!d  d.format !== 'hls' || !d.videoUrl) continue;
+  if (!d || d.format !== 'hls' || !d.videoUrl) continue;
   var name = d.height ? (d.height + 'P')
            : (d.quality ? (d.quality + 'P') : '清晰度');
   sources.push({ url: d.videoUrl, name: name, height: d.height || 0 });
@@ -79,7 +79,7 @@ for (var attempt = 0; attempt < MAX_PRECHECK && sources.length; attempt++) {
   var next = [];
   for (var j = 0; j < defs2.length; j++) {
     var d2 = defs2[j];
-    if (!d2  d2.format !== 'hls' || !d2.videoUrl) continue;
+    if (!d2 || d2.format !== 'hls' || !d2.videoUrl) continue;
     var n2 = d2.height ? (d2.height + 'P')
            : (d2.quality ? (d2.quality + 'P') : '清晰度');
     next.push({ url: d2.videoUrl, name: n2, height: d2.height || 0 });
