@@ -3,7 +3,7 @@
 <p align="center">
   <b>个人媒体库 · 文档阅读 · 音频播放 · 视频播放 · 图片浏览· 网页浏览</b>
 </p>
-
+[![Telegram](https://img.shields.io/badge/Telegram-加入频道-26A5E4?logo=telegram&logoColor=white)](https://t.me/egwangreadnest)
 <p align="center">
   <img src="https://img.shields.io/badge/版本-1.1.5-blue" alt="Version"/>
   <img src="https://img.shields.io/badge/平台-Android-green" alt="Platform"/>
